@@ -29,6 +29,17 @@ We have prepared a double-clickable launch file in the repository root:
 1. Double-click the file named **`Play_Mystic_Valley_Chronicles.command`**.
 2. It will open your terminal, activate your virtual environment automatically, and boot the game client!
 
+> [!IMPORTANT]
+> ### 🛑 macOS "Malware / Unidentified Developer" Warning Fix
+> When you download scripts or applications from a web browser (like GitHub), macOS automatically attaches a **quarantine flag** for safety. To clear this and run the file:
+> 
+> 1. Open your native macOS **Terminal** application.
+> 2. Run the following command (replace with your file path or drag-and-drop the file into Terminal):
+>    ```bash
+>    xattr -cr /path/to/Play_Mystic_Valley_Chronicles.command
+>    ```
+> 3. Press **Enter**. This clears the Gatekeeper block, and you can now double-click to launch seamlessly!
+
 ### Manual Console Launch
 To start the game client manually via terminal:
 1. **Activate Virtual Environment:**
