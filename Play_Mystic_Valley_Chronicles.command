@@ -1,6 +1,9 @@
 #!/bin/bash
 cd "$(dirname "$0")"
 
+# Clear quarantine recursively on the entire project directory to prevent downstream component warnings
+xattr -cr . 2>/dev/null
+
 # 1. Automatic first-time setup: Create venv and install dependencies if missing
 if [ ! -d "venv" ]; then
     echo "=================================================="
