@@ -31,14 +31,14 @@ We have prepared a double-clickable launch file in the repository root:
 
 > [!IMPORTANT]
 > ### 🛑 macOS "Malware / Unidentified Developer" Warning Fix
-> When you download scripts or applications from a web browser (like GitHub), macOS automatically attaches a **quarantine flag** for safety. To clear this and run the file:
+> When you download files or repositories from GitHub, macOS automatically puts them in your **Downloads** directory and attaches a **quarantine flag** for safety. To clear this block:
 > 
 > 1. Open your native macOS **Terminal** application.
-> 2. Run the following command (replace with your file path or drag-and-drop the file into Terminal):
+> 2. Run the following command (which targets the default macOS downloads directory):
 >    ```bash
->    xattr -cr /path/to/Play_Mystic_Valley_Chronicles.command
+>    xattr -cr ~/Downloads/retro-rpg-main/Play_Mystic_Valley_Chronicles.command 2>/dev/null || xattr -cr ~/Downloads/Play_Mystic_Valley_Chronicles.command
 >    ```
-> 3. Press **Enter**. This clears the Gatekeeper block, and you can now double-click to launch seamlessly!
+> 3. Press **Enter**. This instantly clears the Gatekeeper block, allowing you to double-click and launch the game flawlessly!
 
 ### Manual Console Launch
 To start the game client manually via terminal:
