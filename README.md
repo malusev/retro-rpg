@@ -2,6 +2,24 @@
 
 An immersive 16-bit retro top-down Action RPG built natively on Python and Pygame-CE. Choose your class, explore a massive sandbox overworld, interact with rich story NPCs, and battle hostile slimes and goblins across varied climates.
 
+> [!IMPORTANT]
+> ### 🍎 macOS Gatekeeper / Malware Warning Quick-Fix
+> When you download repositories as a **ZIP** from a web browser, macOS automatically tags them with an internet **quarantine flag** for security. If you see a warning saying that it *"cannot be opened since it might be malware"*, use one of these two extremely easy fixes:
+> 
+> #### 🚀 Solution A: Download via Terminal (Recommended - Bypass warnings entirely!)
+> If you clone the repository via Terminal rather than downloading a browser ZIP, macOS does **not** quarantine the files. Just copy-paste and run this command:
+> ```bash
+> cd ~/Downloads && rm -rf retro-rpg && git clone https://github.com/malusev/retro-rpg
+> ```
+> Now go to your Downloads folder, double-click **`Play_Mystic_Valley_Chronicles.command`**, and the game will boot instantly!
+> 
+> #### 🛠️ Solution B: The 5-Second Copy-Paste Terminal Unlock
+> If you downloaded the ZIP folder from your web browser, copy and paste this command into your Terminal application and press **Enter**:
+> ```bash
+> xattr -cr ~/Downloads/retro-rpg-main/Play_Mystic_Valley_Chronicles.command 2>/dev/null || xattr -cr ~/Downloads/Play_Mystic_Valley_Chronicles.command
+> ```
+> Now double-click the command file to launch!
+
 ---
 
 ## 🎮 Gameplay & Controls
