@@ -1,0 +1,4 @@
+([('Mystic Valley Chronicles',
+   '/Users/miroslav.malusev/.gemini/antigravity/scratch/retro-rpg/dist/Mystic '
+   'Valley Chronicles',
+   'EXECUTABLE')],)
